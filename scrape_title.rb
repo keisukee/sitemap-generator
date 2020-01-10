@@ -13,6 +13,17 @@ File.open("sitemap-parsed.txt", "r") do |f|
   end
 end
 
+def retry_on_error(times: 3)
+  try = 0
+  begin
+    try += 1
+    yield
+  rescue
+    retry if try < times
+    raise
+  end
+end
+
 urls_to_scrape = []
 title_list = []
 urls.each do |url|
@@ -21,16 +32,25 @@ urls.each do |url|
   end
 end
 
+times = 2
 urls_to_scrape.each do |url|
-  options = Selenium::WebDriver::Firefox::Options.new
-  options.add_argument('-headless')
-  driver = Selenium::WebDriver.for :firefox, options: options
-  driver.get url
-
-  title = driver.title
-  logger.info("scraping #{url}")
-  puts url
-  puts title
+  try = 0
+  begin
+    try += 1
+    options = Selenium::WebDriver::Firefox::Options.new
+    options.add_argument('-headless')
+    driver = Selenium::WebDriver.for :firefox, options: options
+    driver.get url
+    title = driver.title
+    logger.info("scraping #{url}")
+    puts url
+    puts title
+    sleep 2
+  rescue
+    logger.info("something wrong with #{url} and now retrying...")
+    retry if try < times
+    raise
+  end
 end
 
 
