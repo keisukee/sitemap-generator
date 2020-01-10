@@ -3,7 +3,8 @@ require 'nokogiri'
 require "selenium-webdriver"
 require "logger"
 
-logger = Logger.new('log/scraping.log')
+scrape_name = ARGV[0]
+logger = Logger.new("log/#{scrape_name}.log")
 
 urls = []
 File.open("sitemap-parsed.txt", "r") do |f|
@@ -15,7 +16,7 @@ end
 urls_to_scrape = []
 title_list = []
 urls.each do |url|
-  if url.include?('tax-accountant')
+  if url.include?(scrape_name)
     urls_to_scrape << url
   end
 end
