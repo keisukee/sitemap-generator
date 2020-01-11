@@ -33,26 +33,26 @@ urls.each do |url|
 end
 
 times = 2
+opt = {}
+charset = nil
+opt['User-Agent'] = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/xxxxxx (KHTML, like Gecko) Chrome/xxxxxx Safari/xxxxx'
+
 urls_to_scrape.each do |url|
   try = 0
   begin
     try += 1
-    options = Selenium::WebDriver::Firefox::Options.new
-    options.add_argument('-headless')
-    driver = Selenium::WebDriver.for :firefox, options: options
-    driver.get url
-    title = driver.title
     logger.info("scraping #{url}")
+    html = open(url, opt) do |f|
+      charset = f.charset
+      f.read
+    end
+    doc = Nokogiri::HTML.parse(html, nil, charset)
     puts url
-    puts title
+    puts doc.title
     sleep 2
   rescue
     logger.info("something wrong with #{url} and now retrying...")
     retry if try < times
-    raise
+    next
   end
 end
-
-
-
-

@@ -1,0 +1,96 @@
+# Logfile created on 2020-01-10 11:33:10 +0900 by logger.rb/66358
+I, [2020-01-10T11:33:37.581154 #38495]  INFO -- : scraping https://imitsu.jp/terms/social-insurance
+I, [2020-01-10T11:34:12.339907 #38495]  INFO -- : scraping https://imitsu.jp/search/social-insurance/
+I, [2020-01-10T11:34:46.899342 #38495]  INFO -- : scraping https://imitsu.jp/cost/social-insurance/simulator
+I, [2020-01-10T11:35:16.482404 #38495]  INFO -- : scraping https://imitsu.jp/list/social-insurance/low-price/
+I, [2020-01-10T11:36:07.522804 #38495]  INFO -- : scraping https://imitsu.jp/list/social-insurance/tokyo/
+I, [2020-01-10T11:37:02.339746 #38495]  INFO -- : scraping https://imitsu.jp/list/social-insurance/kanagawa/
+I, [2020-01-10T11:37:58.910498 #38495]  INFO -- : scraping https://imitsu.jp/list/social-insurance/osaka/
+I, [2020-01-10T11:39:28.582158 #38495]  INFO -- : scraping https://imitsu.jp/list/social-insurance/aichi/
+I, [2020-01-10T11:40:16.283141 #38495]  INFO -- : scraping https://imitsu.jp/list/social-insurance/fukuoka/
+I, [2020-01-10T11:41:20.967785 #38495]  INFO -- : scraping https://imitsu.jp/list/social-insurance/hokkaido/
+I, [2020-01-10T11:42:20.158382 #38495]  INFO -- : scraping https://imitsu.jp/list/social-insurance/aomori/
+I, [2020-01-10T11:44:00.378419 #38495]  INFO -- : scraping https://imitsu.jp/list/social-insurance/akita/
+I, [2020-01-10T11:44:52.008645 #38495]  INFO -- : scraping https://imitsu.jp/list/social-insurance/yamagata/
+I, [2020-01-10T11:45:42.614524 #46887]  INFO -- : scraping https://imitsu.jp/terms/social-insurance
+I, [2020-01-10T11:46:12.680349 #46887]  INFO -- : scraping https://imitsu.jp/search/social-insurance/
+I, [2020-01-10T11:46:44.954123 #46887]  INFO -- : scraping https://imitsu.jp/cost/social-insurance/simulator
+I, [2020-01-10T11:47:20.952006 #46887]  INFO -- : scraping https://imitsu.jp/list/social-insurance/low-price/
+I, [2020-01-10T11:48:11.039477 #46887]  INFO -- : scraping https://imitsu.jp/list/social-insurance/tokyo/
+I, [2020-01-10T11:48:56.417102 #46887]  INFO -- : scraping https://imitsu.jp/list/social-insurance/kanagawa/
+I, [2020-01-10T11:49:44.619310 #46887]  INFO -- : scraping https://imitsu.jp/list/social-insurance/osaka/
+I, [2020-01-10T11:50:58.846340 #46887]  INFO -- : scraping https://imitsu.jp/list/social-insurance/aichi/
+I, [2020-01-10T11:52:30.356320 #46887]  INFO -- : scraping https://imitsu.jp/list/social-insurance/fukuoka/
+I, [2020-01-10T11:53:41.902313 #46887]  INFO -- : scraping https://imitsu.jp/list/social-insurance/hokkaido/
+I, [2020-01-10T11:54:44.902880 #46887]  INFO -- : something wrong with https://imitsu.jp/list/social-insurance/aomori/ and now retrying...
+I, [2020-01-10T11:55:13.032799 #46887]  INFO -- : something wrong with https://imitsu.jp/list/social-insurance/aomori/ and now retrying...
+I, [2020-01-10T11:55:23.399460 #46887]  INFO -- : something wrong with https://imitsu.jp/list/social-insurance/akita/ and now retrying...
+I, [2020-01-10T11:56:23.811674 #46887]  INFO -- : something wrong with https://imitsu.jp/list/social-insurance/akita/ and now retrying...
+I, [2020-01-10T11:56:51.283696 #46887]  INFO -- : scraping https://imitsu.jp/list/social-insurance/yamagata/
+I, [2020-01-10T11:57:16.458743 #46887]  INFO -- : scraping https://imitsu.jp/list/social-insurance/iwate/
+I, [2020-01-10T11:57:48.977974 #46887]  INFO -- : something wrong with https://imitsu.jp/list/social-insurance/miyagi/ and now retrying...
+I, [2020-01-10T11:57:52.512253 #46887]  INFO -- : something wrong with https://imitsu.jp/list/social-insurance/miyagi/ and now retrying...
+I, [2020-01-10T11:57:55.593522 #46887]  INFO -- : something wrong with https://imitsu.jp/list/social-insurance/fukushima/ and now retrying...
+I, [2020-01-10T11:58:58.150370 #46887]  INFO -- : something wrong with https://imitsu.jp/list/social-insurance/fukushima/ and now retrying...
+I, [2020-01-10T12:15:16.516116 #60381]  INFO -- : scraping https://imitsu.jp/terms/social-insurance
+I, [2020-01-10T12:15:19.409466 #60381]  INFO -- : scraping https://imitsu.jp/search/social-insurance/
+I, [2020-01-10T12:15:22.370276 #60381]  INFO -- : scraping https://imitsu.jp/cost/social-insurance/simulator
+I, [2020-01-10T12:15:24.590079 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/low-price/
+I, [2020-01-10T12:15:27.659426 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/tokyo/
+I, [2020-01-10T12:15:29.942822 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/kanagawa/
+I, [2020-01-10T12:15:37.065234 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/osaka/
+I, [2020-01-10T12:15:39.376067 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/aichi/
+I, [2020-01-10T12:15:42.312926 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/fukuoka/
+I, [2020-01-10T12:15:45.448730 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/hokkaido/
+I, [2020-01-10T12:15:48.685987 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/aomori/
+I, [2020-01-10T12:15:51.748995 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/akita/
+I, [2020-01-10T12:15:54.885356 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/yamagata/
+I, [2020-01-10T12:15:58.034009 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/iwate/
+I, [2020-01-10T12:16:02.504553 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/miyagi/
+I, [2020-01-10T12:16:06.479481 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/fukushima/
+I, [2020-01-10T12:16:09.589340 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/saitama/
+I, [2020-01-10T12:16:13.940796 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/chiba/
+I, [2020-01-10T12:16:16.908686 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/tochigi/
+I, [2020-01-10T12:16:20.095086 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/ibaraki/
+I, [2020-01-10T12:16:22.425890 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/gumma/
+I, [2020-01-10T12:16:26.534911 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/gifu/
+I, [2020-01-10T12:16:29.491102 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/shizuoka/
+I, [2020-01-10T12:16:32.632021 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/mie/
+I, [2020-01-10T12:16:35.785726 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/niigata/
+I, [2020-01-10T12:16:38.924759 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/yamanashi/
+I, [2020-01-10T12:16:41.225461 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/nagano/
+I, [2020-01-10T12:16:44.246187 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/ishikawa/
+I, [2020-01-10T12:16:48.578756 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/toyama/
+I, [2020-01-10T12:16:51.547771 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/fukui/
+I, [2020-01-10T12:16:54.776799 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/hyogo/
+I, [2020-01-10T12:16:57.797609 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/kyoto/
+I, [2020-01-10T12:17:00.119888 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/shiga/
+I, [2020-01-10T12:17:04.195154 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/nara/
+I, [2020-01-10T12:17:07.247303 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/wakayama/
+I, [2020-01-10T12:17:13.539285 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/okayama/
+I, [2020-01-10T12:17:15.865456 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/hiroshima/
+I, [2020-01-10T12:17:18.782223 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/tottori/
+I, [2020-01-10T12:17:24.057386 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/shimane/
+I, [2020-01-10T12:17:27.326827 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/yamaguchi/
+I, [2020-01-10T12:17:30.375242 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/kagawa/
+I, [2020-01-10T12:17:33.449579 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/tokushima/
+I, [2020-01-10T12:17:35.798748 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/ehime/
+I, [2020-01-10T12:17:39.753390 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/kochi/
+I, [2020-01-10T12:17:42.243797 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/saga/
+I, [2020-01-10T12:17:46.129239 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/nagasaki/
+I, [2020-01-10T12:17:49.194778 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/kumamoto/
+I, [2020-01-10T12:17:52.329927 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/oita/
+I, [2020-01-10T12:18:02.812778 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/miyazaki/
+I, [2020-01-10T12:18:05.969758 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/kagoshima/
+I, [2020-01-10T12:18:09.179575 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/okinawa/
+I, [2020-01-10T12:18:13.434635 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/
+I, [2020-01-10T12:18:17.512684 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/agency/
+I, [2020-01-10T12:18:20.642018 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/outsourcing/
+I, [2020-01-10T12:18:23.784636 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/audit/
+I, [2020-01-10T12:18:26.981890 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/mental-health/
+I, [2020-01-10T12:18:30.123452 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/grant/
+I, [2020-01-10T12:18:35.398314 #60381]  INFO -- : scraping https://imitsu.jp/list/social-insurance/regulations/
+I, [2020-01-10T12:18:38.627224 #60381]  INFO -- : scraping https://imitsu.jp/matome/social-insurance/7358451619710267
+I, [2020-01-10T12:18:41.631193 #60381]  INFO -- : scraping https://imitsu.jp/matome/social-insurance/8844001138793733
+I, [2020-01-10T12:18:45.845132 #60381]  INFO -- : scraping https://imitsu.jp/matome/social-insurance/5346321551335185
+I, [2020-01-10T12:18:48.277663 #60381]  INFO -- : scraping https://imitsu.jp/matome/social-insurance/7410000820129193
